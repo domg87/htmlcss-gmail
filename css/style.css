@@ -1,0 +1,75 @@
+body{
+  background-image: url(../img/bg2_1920x1200.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  width: 100%;
+  margin:auto;
+}
+
+/* intestazione */
+#logo{
+  height: 50px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+.logo-text{
+  display:inline;
+  color: #FFFFE0;
+}
+
+#rule{
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+}
+
+#mex{
+  color: #fff;
+}
+.circle{
+  display: inline-block;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+}
+/* /intestazione */
+
+/* email */
+#section{
+  margin-top: 20px;
+}
+
+.email{
+  background-color: #D3D3D3;
+  border: solid 1px; black;
+}
+.name-email{
+  display: inline-block;
+  width: 13%;
+}
+.text-email{
+  display:inline-block;
+  color: gray;
+  width: 70%;
+  margin-left: 10px;
+}
+/* /email */
+
+#rule2{
+  border-bottom: 2px solid #fff;
+  padding: 15px;
+}
+/* footer */
+#credit{
+  font-size: 20px;
+  font-style: italic;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
